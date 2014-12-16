@@ -28,23 +28,80 @@ img {
 	margin: 0;
 }
 
-
+p {
+	font-family: 'Poiret One', sans-serif;
+	max-width: 100%;
+}
 
 
 h1 {
 	font-family: "Playfair Display", sans-serif;
 	text-transform: uppercase;
 	color: #FF3333;
-	margin: 0px 0;
-	font-size: 7em;
+	margin: 12px 40px;
+	font-size: 6.5em;
 	font-weight: normal;
 	line-height: 0.8em;
 	padding-top: 18px;
 	opacity: 100;
+	max-width: 100%;
+	text-align: right
 	
 }
 
+h2 {
+	font-family: "Poiret One", sans-serif;
+	text-transform: uppercase;
+	color: #343434;
+	margin: 12px 40px;
+	font-size: 2.5em;
+	font-weight: normal;
+	line-height: 0.8em;
+	padding-top: 18px;
+	opacity: 100;
+	text-align: right
+}
+
 /*NAVIGATION*/
+
+
+section {
+  background: #FF3333;
+  height: 100px;
+  width: 100px;
+  margin: 10% auto 4% auto;
+  display: inline-block;
+  /* Set Perspective*/
+  transform: perspective(200px) rotateY(50deg);
+  transform-origin: bottom right;
+  transition: transform 1s;
+  
+}
+
+section:hover {
+  transform: perspective(200px) rotateY(0deg);
+  
+}
+
+
+
+.color {
+  background: #343434;
+  height: 100px;
+  width: 100px;
+  margin: 10% auto 4% auto;
+  display: inline-block;
+  /* Set Perspective*/
+  transform: perspective(200px) rotateY(50deg);
+  transform-origin: bottom right;
+  transition: transform 1s;
+  
+}
+
+.color:hover {
+  transform: perspective(200px) rotateY(0deg);
+  
+}
 
 
 
@@ -54,7 +111,9 @@ body {
 }
 
 h3 {
-	margin: 0 0 1em 0;
+	text-transform: uppercase;
+	margin: 2em 0 .5em 0;
+	font-size: 1.7em;
 }
 
 /*INFO HOVER DISPLAY*/
