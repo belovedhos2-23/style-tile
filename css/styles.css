@@ -1,0 +1,152 @@
+/* Your Website Styles */
+body {
+	background-image: url('../img/texture3.jpg');
+	color: #808080;
+}
+
+/*HEADER*/
+
+
+a {
+	text-decoration: none;
+	color: #313A3A;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+
+
+
+h1 {
+	font-family: "Playfair Display", sans-serif;
+	text-transform: uppercase;
+	color: #FF3333;
+	margin: 0px 0;
+	font-size: 7em;
+	font-weight: normal;
+	line-height: 0.8em;
+	padding-top: 18px;
+	opacity: 100;
+	
+}
+
+/*NAVIGATION*/
+
+
+
+
+body {
+	font-family: 'Poiret One', sans-serif;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+/*INFO HOVER DISPLAY*/
+
+.thumbnail p {
+  background: green;
+  height: 150px;
+  float: left;
+  position: relative;
+  width: 150px;
+  margin: 24px;
+  overflow: hidden;
+}
+
+.thumbnail p {
+  background: #B20000;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 100%;
+}
+
+
+
+
+
+/*footer*/
+footer {
+	font-size: .8em;
+	text-align: center;
+	clear: both;
+	padding-top: 100px;
+}
+
+/*Page: Portfolio*/
+
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+
+/*Page: About*/
+
+
+
+
+/*Page:Contact*/
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 25px;
+	margin: 0 0 8px;
+}
+
+
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+.contact-info li.twitter a {
+	background-image:url('../img/twitter.png');
+}
+
+
+.resume {
+
+	max-width: 200px;
+
+
+
+
+
+
+
+
+/* Show Grid */
+
+
+
